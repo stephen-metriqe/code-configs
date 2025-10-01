@@ -1,0 +1,462 @@
+{
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "cweijan.vscode-database-client2"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "better-comments.tags": [
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#AD49E1",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "#endregion",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#AD49E1",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "#region",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "!",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#3498DB",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "?",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#474747",
+            "italic": false,
+            "strikethrough": true,
+            "tag": "//",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#98C379",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "*",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FFD703",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "todo",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FF01FF",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "fixme",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#FFA500",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "note",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#157EFB",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "mark",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#ff000080",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "pending",
+            "underline": false
+        }
+    ],
+    "database-client.autoSync": true,
+    "debug.inlineValues": "on",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Comic Mono', 'Courier New', monospace, 'Kode Mono Regular'",
+    "editor.fontLigatures": "'calt', 'liga', 'clig', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "700",
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "off",
+    "scm.diffDecorations": "none",
+    "errorLens.gutterIconsEnabled": false,
+    "debug.gutterMiddleClickAction": "none",
+    "editor.showFoldingControls": "never",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.mouseWheelZoom": true,
+    "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "constant",
+                    "emphasis",
+                    "entity",
+                    "invalid",
+                    "keyword",
+                    "markup",
+                    "meta",
+                    "storage",
+                    "string",
+                    "strong",
+                    "support",
+                    "variable"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.wordWrap": "on",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning",
+        "info",
+        "hint"
+    ],
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "python.analysis.aiCodeActions": {
+        "implementAbstractClasses": true,
+        "generateSymbol": true,
+        "convertFormatString": true
+    },
+    "python.analysis.languageServerMode": "full",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.snippetSuggestions": "bottom",
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.coverage": true,
+        "**/.coverage.*": true,
+        "**/.hypothesis": true,
+        "**/.mypy_cache": true,
+        "**/.nox": true,
+        "**/.pytest_cache": true,
+        "**/.ruff_cache": true,
+        "**/.tox": true
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "python": false
+    },
+    "interactiveWindow.promptToSaveOnClose": true,
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "jupyter.interactiveWindow.notebookRepl": true,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "pyScope.blockHighlightColor": "255, 69, 69",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoIndent": true,
+    "python.analysis.fixAll": [
+        "source.unusedImports"
+    ],
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.extraPaths": [
+        ".",
+        ".vscode/jac_shadow"
+    ],
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": true,
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.general.tags": [
+        "note",
+        "todo",
+        "fixme",
+        "mark",
+        "pending",
+        "done"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "done": {
+            "background": "#00ff0080",
+            "icon": "square-fill",
+            "iconColour": "#00ff0080"
+        },
+        "fixme": {
+            "background": "#FF01FF",
+            "icon": "bug",
+            "iconColour": "#FF01FF"
+        },
+        "mark": {
+            "background": "#157EFB",
+            "icon": "tag",
+            "iconColour": "#157EFB"
+        },
+        "note": {
+            "background": "#FFA500",
+            "icon": "file",
+            "iconColour": "#FFA500"
+        },
+        "pending": {
+            "background": "#FF2D00",
+            "icon": "square",
+            "iconColour": "#FF2D00"
+        },
+        "todo": {
+            "background": "#FFD703",
+            "icon": "tasklist",
+            "iconColour": "#FFD703"
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "fontWeight": "bold",
+        "foreground": "#000000",
+        "opacity": 90,
+        "type": "tag"
+    },
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.gdefault": true,
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.highlightedyank.color": "rgba(250, 0, 0, 1)",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.textColor": "rgba(250, 0, 0, 1)",
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "<leader>",
+                "e"
+            ]
+        }
+    ],
+    "vim.replaceWithRegister": true,
+    "vim.showMarksInGutter": true,
+    "vim.smartRelativeLine": true,
+    "vim.sneak": true,
+    "vim.sneakReplacesF": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.useSystemClipboard": true,
+    "vim.visualstar": true,
+    "vscode_custom_css.imports": [
+        "file:C:\\Users\\stephent\\AppData\\Roaming\\Code\\User\\vscode-scripts\\index.js"
+    ],
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\stephent\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\stephent\\AppData\\Roaming\\Code - Insiders\\User\\nvim\\init.lua",
+    "window.commandCenter": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorCustomizations": {
+        "[Vira*]": {
+            "activityBar.activeBorder": "#57D7FF",
+            "activityBarBadge.background": "#57D7FF",
+            "activityBarBadge.foreground": "#000000",
+            "activityBarTop.activeBorder": "#57D7FF",
+            "breadcrumb.activeSelectionForeground": "#57D7FF",
+            "button.background": "#57D7FF",
+            "button.foreground": "#000000",
+            "button.hoverBackground": "#57D7FFcc",
+            "chat.avatarForeground": "#57D7FF",
+            "chat.slashCommandForeground": "#57D7FF",
+            "commandCenter.activeBorder": "#57D7FF80",
+            "editor.findMatchBorder": "#57D7FF",
+            "editorSuggestWidget.highlightForeground": "#57D7FF",
+            "editorWidget.border": "#57D7FF",
+            "editorWidget.resizeBorder": "#57D7FF",
+            "extensionButton.background": "#57D7FF14",
+            "extensionButton.foreground": "#57D7FF",
+            "extensionButton.hoverBackground": "#57D7FF33",
+            "extensionButton.prominentBackground": "#57D7FF14",
+            "extensionButton.prominentForeground": "#57D7FF",
+            "extensionButton.prominentHoverBackground": "#57D7FF33",
+            "extensionButton.separator": "#57D7FF33",
+            "list.activeSelectionForeground": "#57D7FF",
+            "list.activeSelectionIconForeground": "#57D7FF",
+            "list.highlightForeground": "#57D7FF",
+            "list.inactiveSelectionForeground": "#57D7FF",
+            "list.inactiveSelectionIconForeground": "#57D7FF",
+            "menu.selectionForeground": "#57D7FF",
+            "menubar.selectionForeground": "#57D7FF",
+            "notebook.inactiveFocusedCellBorder": "#57D7FF80",
+            "notificationLink.foreground": "#57D7FF",
+            "panelTitle.activeBorder": "#57D7FF",
+            "pickerGroup.foreground": "#57D7FF",
+            "progressBar.background": "#57D7FF",
+            "sash.hoverBorder": "#57D7FF80",
+            "scrollbarSlider.activeBackground": "#57D7FF80",
+            "selection.background": "#57D7FF40",
+            "settings.modifiedItemIndicator": "#57D7FF",
+            "statusBarItem.remoteBackground": "#57D7FF14",
+            "statusBarItem.remoteForeground": "#57D7FF",
+            "statusBarItem.remoteHoverBackground": "#57D7FF",
+            "statusBarItem.remoteHoverForeground": "#000000",
+            "tab.activeBorder": "#57D7FF",
+            "tab.activeBorderTop": "#57D7FF00",
+            "tab.activeModifiedBorder": "#57D7FF00",
+            "tab.unfocusedActiveBorder": "#57D7FF",
+            "tab.unfocusedActiveBorderTop": "#57D7FF00",
+            "textLink.foreground": "#57D7FF",
+            "toolbar.activeBackground": "#57D7FF26"
+        },
+        "activityBarBadge.background": "#155e02",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        // "editor.lineHighlightBackground": "#cfc2102d",
+        "editor.lineHighlightBorder": "#edfd0636",
+        "editor.selectionBackground": "#f707ff7b",
+        "editor.selectionHighlightBorder": "#ff00c3",
+        "editorCursor.foreground": "#ff4e22",
+        "jumpy2.beaconColor": "#ff0000af",
+        "jumpy2.checkered_labelBackgroundColor": "#d3d3d3",
+        "jumpy2.checkered_labelFontColor": "#000000",
+        "jumpy2.labelBackgroundColor": "#d3d3d3",
+        "jumpy2.labelBorderColor": "#d3d3d3",
+        "jumpy2.labelFontColor": "#000000",
+        "sash.hoverBorder": "#fa1b49",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#fa1b49",
+        "statusBarItem.remoteBackground": "#dd0531",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBlue": "#00a1f9",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#237e02",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#FB543F",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#FAC03B",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#95C085",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#FAC03B",
+        "terminal.background": "#131212",
+        "terminal.foreground": "#dddad6",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#dd053199",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "tree.indentGuidesStroke": "#ff0000"
+    },
+    "workbench.editor.showTabs": "single",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "none",
+    "workbench.colorTheme": "Slightly Purple",
+    "explorer.compactFolders": false,
+    "editor.codeLens": true,
+    "codeLens.enableCodeLens": true,
+    "[jac]": {
+        "editor.defaultFormatter": "jaseci-labs.jaclang-extension"
+    },
+    "jaclang-extension.developerMode": false,
+    "python.analysis.include": [
+        "**/*.jac"
+    ],
+    "python.analysis.diagnosticMode": "workspace",
+    "multiCommand.commands": {
+        "multiCommand.scrollAndAlign": {
+            "command": "multiCommand.scrollAndAlign",
+            "interval": 10,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "<C-d>"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+        "multiCommand.scrollUpAndAlign": {
+            "command": "multiCommand.scrollAndAlign",
+            "interval": 10,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "<C-u>"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        }
+    }
+}
