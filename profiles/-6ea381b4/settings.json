@@ -1,0 +1,527 @@
+{
+  "template-string-converter.enabled": true,
+  "debug.inlineValues": "on",
+  "files.autoSave": "onFocusChange",
+  "editor.wordWrap": "on",
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.linkedEditing": true,
+  "editor.minimap.autohide": "mouseover",
+  "editor.minimap.size": "fill",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontVariations": false,
+  "editor.fontWeight": "normal",
+  "editor.largeFileOptimizations": false,
+  "editor.selectionHighlight": true,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#131212"
+  },
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Users\\stephent\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Git\\Git"
+    },
+  },
+  "terminal.integrated.env.linux": {},
+  "git.ignoreLegacyWarning": true,
+  "git-autoconfig.configList": [
+    {
+      "user.email": "hustler4stev@gmail.com",
+      "user.name": "Stphen Thevar"
+    }
+  ],
+  "editor.mouseWheelZoom": true,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.lineHeight": 20,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontFamily": "'Cascadia Code',\"Cascadia Mono\", monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.smoothScrolling": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "win-ca.inject": "append",
+  "css.lint.unknownAtRules": "ignore",
+  "window.menuBarVisibility": "toggle",
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.tags": [
+    "note",
+    "todo",
+    "fixme",
+    "mark",
+    "pending",
+    "done"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "fontWeight": "bold",
+    "foreground": "#000000",
+    "opacity": 90
+  },
+  "todo-tree.highlights.customHighlight": {
+    "note": {
+      "background": "#FFA500",
+      "iconColour": "#FFA500",
+      "icon": "file"
+    },
+    "todo": {
+      "background": "#FFD703",
+      "iconColour": "#FFD703",
+      "icon": "tasklist"
+    },
+    "fixme": {
+      "background": "#FF01FF",
+      "iconColour": "#FF01FF",
+      "icon": "bug"
+    },
+    "mark": {
+      "background": "#157EFB",
+      "iconColour": "#157EFB",
+      "icon": "tag"
+    },
+    "pending": {
+      "background": "#FF2D00",
+      "iconColour": "#FF2D00",
+      "icon": "square"
+    },
+    "done": {
+      "background": "#00ff0080",
+      "iconColour": "#00ff0080",
+      "icon": "square-fill"
+    }
+  },
+  "background.windowBackgrounds": [
+    "c:/Users/stephent/OneDrive - METRIQE SOLUTIONS PRIVATE LIMITED/Pictures/wally/**"
+  ],
+  "background.backgroundChangeTime": [
+    3600,
+    0,
+    0,
+    0
+  ],
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.wrapLogMessage": false,
+  "turboConsoleLog.delimiterInsideMessage": "",
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.logMessageSuffix": "",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 3,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "better-comments.tags": [
+    {
+      "tag": "#endregion",
+      "color": "#AD49E1",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#region",
+      "color": "#AD49E1",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FFD703",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "fixme",
+      "color": "#FF01FF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "note",
+      "color": "#FFA500",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "mark",
+      "color": "#157EFB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "pending",
+      "color": "#ff000080",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.addMissingImports.ts": "never",
+      "source.fixAll.ts": "never",
+      "source.organizeImports": "never"
+    }
+  },
+  "prettier.tabWidth": 2,
+  "editor.inlayHints.enabled": "on",
+  "editor.guides.indentation": true,
+  "msc.active": false,
+  "update.mode": "default",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": false,
+  "redhat.telemetry.enabled": false,
+  "background.backgroundAlignment": [
+    "Manual",
+    "Center Center",
+    "Center Center",
+    "Center Center"
+  ],
+  "background.backgroundAlignmentValue": [
+    "50%",
+    "50%",
+    "50%",
+    "50%"
+  ],
+  "reactSnippets.settings.importReactOnTop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "npm-intellisense.packageSubfoldersIntellisense": true,
+  "find-it-faster.advanced.disableStartupChecks": true,
+  "find-it-faster.general.openFileInPreviewEditor": true,
+  "find-it-faster.findWithinFiles.fuzzRipgrepQuery": true,
+  "chatgpt.lang": "en",
+  "explorer.compactFolders": false,
+  "errorLens.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.enableSmartCommit": true,
+  "workbench.editor.showTabs": "single",
+  "git.autofetch": "all",
+  "git.confirmSync": false,
+  "terminal.explorerKind": "both",
+  "console-ninja.output.showNetworkRequests": false,
+  "console-ninja.featureSet": "Community",
+  "console-ninja.openHttpLinksInEditor": false,
+  "files.exclude": {
+    ".vscode": false,
+    "node_modules": false
+  },
+  "git.ignoreRebaseWarning": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/src/**/**/*": "${filename}<-${dirname}<-${dirname(1)}"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "python": false
+  },
+  "pgsql.connections": [
+    {
+      "host": "fleetedge-insights.cfl2ukbrlc9f.ap-south-1.rds.amazonaws.com",
+      "dbname": "fleetedgeinsights",
+      "user": "fleetedgeinsights_rw",
+      "password": "",
+      "emptyPasswordInput": false,
+      "port": "5432",
+      "profileName": "steve",
+      "connectTimeout": 15,
+      "encrypt": false,
+      "applicationName": "vscode-pgsql",
+      "hostaddr": "",
+      "options": "",
+      "sslmode": "prefer",
+      "clientEncoding": "",
+      "sslcompression": true,
+      "sslcert": "",
+      "sslkey": "",
+      "sslrootcert": "",
+      "sslcrl": "",
+      "requirepeer": ""
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "editor.snippetSuggestions": "inline",
+  "window.newWindowDimensions": "maximized",
+  "editor.fontSize": 15,
+  "biome_lsp.trace.server": "messages",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "multiCommand.commands": {
+    "multiCommand.scrollAndAlign": {
+      "command": "multiCommand.scrollAndAlign",
+      "interval": 5,
+      "sequence": [
+        {
+          "command": "vscode-neovim.send",
+          "args": "<C-d>"
+        },
+        {
+          "command": "vscode-neovim.send",
+          "args": "zz"
+        }
+      ]
+    },
+    "multiCommand.scrollUpAndAlign": {
+      "command": "multiCommand.scrollAndAlign",
+      "interval": 5,
+      "sequence": [
+        {
+          "command": "vscode-neovim.send",
+          "args": "<C-u>"
+        },
+        {
+          "command": "vscode-neovim.send",
+          "args": "zz"
+        }
+      ]
+    },
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "vim.camelCaseMotion.enable": true,
+  "vim.sneakReplacesF": true,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.silentNotifications": false,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": false,
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "vim.enableNeovim": true,
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "files.autoSaveDelay": 20000,
+  "files.autoSaveWhenNoErrors": true,
+  "tailwind-fold.foldLengthThreshold": 20,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwind-fold.showTailwindImage": false,
+  "tailwind-fold.autoFold": false,
+  "tailwind-fold.foldedText": "***",
+  "tailwind-fold.unfoldedTextOpacity": 0.5,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "window.titleBarStyle": "native",
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hidden",
+    "frame": false
+  },
+  "custom-ui-style.stylesheet": {
+    ".quick-input-widget": "top: 25vh !important",
+    // ".monaco-component": "top: 30vh !important"
+  },
+  "vscode_custom_css.imports": [
+    "file://C:\\Users\\stephent\\AppData\\Roaming\\Code\\User\\vscode-scripts\\index.js"
+  ],
+  "errorLens.fontStyleItalic": true,
+  "importCost.fontStyle": "italic",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontSize": 13,
+  "database-client.autoSync": true,
+  "code-runner.executorMap": {
+    "typescript": "npm run dev"
+    // "typescript": "ts-node-dev $fileName && node ${fileNameWithoutExt}.js"
+  },
+  "errorLens.gutterIconsFollowCursorOverride": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "workbench.layoutControl.enabled": false,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(((?:[^()]|\\([^()]*\\))*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    [
+      "cx\\(((?:[^()]|\\([^()]*\\))*)\\)",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ]
+  ],
+  // "tailwindCSS.experimental.configFile": "D:\\metriqe\\official_repo\\chat_bot_v1\\met-services-react-ts\\apps\\react-chatbot\\src\\index.css",
+  "workbench.editor.defaultBinaryEditor": "default",
+  "breadcrumbs.enabled": true,
+  "editor.letterSpacing": 0.2,
+  "gitTreeCompare.diffMode": "full",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "editor.lineNumbers": "relative",
+  "editor.cursorBlinking": "solid",
+  "vim.startInInsertMode": false,
+  "vim.smartRelativeLine": true,
+  "accessibility.signalOptions.volume": 0,
+  "githd.blameView.enabled": false,
+  "githd.editor.disabled": true,
+  "githd.cacheEnabled": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.accessibilitySupport": "on",
+  "terminal.external.windowsExec": "C:\\Users\\stephent\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Git",
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.suggest.enabled": true,
+  "workbench.activityBar.location": "hidden",
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/assets": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/public": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true,
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "yaml.maxItemsComputed": 10000,
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "ms-settings"
+  ],
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\stephent\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+  "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\stephent\\AppData\\Roaming\\Code - Insiders\\User\\nvim\\init.lua",
+  "window.commandCenter": false,
+  "background.autoInstall": false,
+  "workbench.sideBar.location": "right",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  }
+}

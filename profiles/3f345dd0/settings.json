@@ -124,7 +124,7 @@
     "editor.fontSize": 15,
     "editor.fontWeight": "700",
     "editor.formatOnSave": true,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "relative",
     "scm.diffDecorations": "none",
     "errorLens.gutterIconsEnabled": false,
     "debug.gutterMiddleClickAction": "none",
@@ -457,6 +457,62 @@
                     "args": "zz"
                 }
             ]
-        }
-    }
+        },
+        "multiCommand.moveDownAndAlign": {
+            "command": "multiCommand.moveDownAndAlign",
+            "interval": 10,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "j"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+        "multiCommand.moveUpAndAlign": {
+            "command": "multiCommand.moveUpAndAlign",
+            "interval": 10,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "k"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+        "multiCommand.moveNextAndAlign": {
+            "command": "multiCommand.moveNextAndAlign",
+            "interval": 5,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "n"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+        "multiCommand.movePrevAndAlign": {
+            "command": "multiCommand.movePrevAndAlign",
+            "interval": 5,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "N"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+    },
 }
